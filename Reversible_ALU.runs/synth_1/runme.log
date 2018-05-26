@@ -1,0 +1,263 @@
+
+*** Running vivado
+    with args -log alurev16_bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source alurev16_bit.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source alurev16_bit.tcl -notrace
+Command: synth_design -top alurev16_bit -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t-fbg676'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t-fbg676'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1260 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 323.652 ; gain = 79.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alurev16_bit' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit.v:5]
+INFO: [Synth 8-638] synthesizing module 'one_bit_start' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:1]
+INFO: [Synth 8-638] synthesizing module 'dpgGate' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:26]
+INFO: [Synth 8-256] done synthesizing module 'dpgGate' (1#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:26]
+INFO: [Synth 8-638] synthesizing module 'fredGate' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:10]
+INFO: [Synth 8-256] done synthesizing module 'fredGate' (2#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:10]
+INFO: [Synth 8-638] synthesizing module 'feyGate' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:3]
+INFO: [Synth 8-256] done synthesizing module 'feyGate' (3#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:3]
+INFO: [Synth 8-638] synthesizing module 'tofGate' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:18]
+INFO: [Synth 8-256] done synthesizing module 'tofGate' (4#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:18]
+INFO: [Synth 8-638] synthesizing module 'dkgGate' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:35]
+INFO: [Synth 8-256] done synthesizing module 'dkgGate' (5#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v:35]
+INFO: [Synth 8-638] synthesizing module 'shifting_block' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v:3]
+INFO: [Synth 8-256] done synthesizing module 'shifting_block' (6#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v:3]
+INFO: [Synth 8-256] done synthesizing module 'one_bit_start' (7#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:1]
+INFO: [Synth 8-638] synthesizing module 'one_bit_mid' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:44]
+INFO: [Synth 8-638] synthesizing module 'shifting_mid' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v:20]
+INFO: [Synth 8-256] done synthesizing module 'shifting_mid' (8#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v:20]
+INFO: [Synth 8-256] done synthesizing module 'one_bit_mid' (9#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:44]
+INFO: [Synth 8-638] synthesizing module 'one_bit_end' [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:89]
+INFO: [Synth 8-256] done synthesizing module 'one_bit_end' (10#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v:89]
+INFO: [Synth 8-256] done synthesizing module 'alurev16_bit' (11#1) [E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit.v:5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 362.789 ; gain = 118.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 362.789 ; gain = 118.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 362.789 ; gain = 118.973
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 362.789 ; gain = 118.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'bit0/mux7' (fredGate) to 'bit0/mux11'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 626   
+	   3 Input      1 Bit         XORs := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dpgGate 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 1     
+Module fredGate 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module feyGate 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module tofGate 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module dkgGate 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     1|
+|2     |LUT3  |     5|
+|3     |LUT4  |    30|
+|4     |LUT5  |    35|
+|5     |LUT6  |    33|
+|6     |MUXF7 |     9|
+|7     |IBUF  |    38|
+|8     |OBUF  |    17|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   168|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 575.770 ; gain = 331.953
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+31 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 628.746 ; gain = 393.695
+INFO: [Common 17-1381] The checkpoint 'E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.runs/synth_1/alurev16_bit.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 628.746 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri May 25 15:00:33 2018...

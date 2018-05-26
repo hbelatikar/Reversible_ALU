@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alurev16_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feyGate
+INFO: [VRFC 10-311] analyzing module fredGate
+INFO: [VRFC 10-311] analyzing module tofGate
+INFO: [VRFC 10-311] analyzing module dpgGate
+INFO: [VRFC 10-311] analyzing module dkgGate
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_bit_start
+INFO: [VRFC 10-311] analyzing module one_bit_mid
+INFO: [VRFC 10-311] analyzing module one_bit_end
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifting_start
+INFO: [VRFC 10-311] analyzing module shifting_mid
+INFO: [VRFC 10-311] analyzing module shifting_end
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alurev16_bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/New_everything/Reversible_ALU/Reversible_ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

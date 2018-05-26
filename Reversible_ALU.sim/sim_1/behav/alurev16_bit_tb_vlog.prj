@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit.v"
+verilog xil_defaultlib  "../../../Reversible_ALU.srcs/sources_1/imports/NEWALU/gates.v"
+verilog xil_defaultlib  "../../../Reversible_ALU.srcs/sources_1/imports/NEWALU/one_bit.v"
+verilog xil_defaultlib  "../../../Reversible_ALU.srcs/sources_1/imports/NEWALU/shifting_block.v"
+verilog xil_defaultlib  "../../../Reversible_ALU.srcs/sources_1/imports/NEWALU/alurev16_bit_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
